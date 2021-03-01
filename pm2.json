@@ -1,0 +1,5 @@
+{
+  "name": "studyCase",
+  "script": "./bin/www",
+  "instances": "1"
+}
