@@ -7,7 +7,7 @@ RUN apk upgrade && apk update && \
   curl \
   openssh
 
-RUN MKDIR -p /usr/docker/test
+RUN mkdir -p /usr/docker/test
 WORKDIR /usr/docker/test
 
 COPY package*.json ./
